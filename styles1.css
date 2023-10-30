@@ -1,5 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
 html {
     font-family: sans-serif;
+   background-image: url(assest/fondo.jpg);
   }
   
   table {
@@ -21,8 +26,12 @@ html {
   }
   
   td {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22px;
     text-align: center;
-    border: 1px solid #000 
+    border: 1px solid #d3d3d3 
+    
+    
   }
   
   tr:nth-child(even) td {
@@ -42,7 +51,7 @@ html {
   }
 
   img {
-    width: 100px;
+    width: 150px;
   }
 
   
